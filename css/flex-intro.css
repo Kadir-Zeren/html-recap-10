@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul.nav {
+  background-color: cadetblue;
+  list-style-type: none;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem 4rem;
+  flex-wrap: nowrap;
+}
+ul.nav li {
+  background-color: chocolate;
+  width: 7rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
